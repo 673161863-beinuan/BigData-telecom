@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.atguigu</groupId>
+  <artifactId>ct-projects</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>ct-common</module>
+  	<module>ct-producer</module>
+  	<module>ct-consumer</module>
+  	<module>ct-consumer-coprocessor</module>
+  	<module>ct-analysis</module>
+  	<module>ct-cache</module>
+  	<module>ct-web</module>
+  </modules>
+</project>
